@@ -10,15 +10,15 @@ print(colors[2])
 #You can add methoods to this exp 
 print(colors[4].title())
 
-#you can ask for the last item in a list using the -1 
+#You can ask for the last item in a list using the -1 
 print(colors[-1].title())
 
-#how to use this
+#How to use this
 message = "My favorit color is " + colors[-1].title()+ "."
 print(message)
 
 
-#how to change the value of an item in a list
+#How to change the value of an item in a list
 anies = ['cat','dog','fish','bird']
 print(anies)
 
@@ -26,7 +26,7 @@ print(anies)
 anies[0] = 'lizard'
 print(anies[0])
 
-#use the append command here I add chickes to the list
+#Use the append command here I add chickes to the list
 anies.append('chickens')
 print(anies)
 
@@ -34,7 +34,7 @@ print(anies)
 anies.insert(1,'bugs')
 print(anies)
 
-#how to remove elements from a list here I will delet bugs in position 1 
+#How to remove elements from a list here I will delet bugs in position 1 
 del anies[1]
 print(anies)
 
@@ -45,6 +45,29 @@ print(bikes)
 popped_bikes = bikes.pop()
 print(bikes)
 print(popped_bikes)
+
+#You can sort a list alphabetically
+colors = ['red','green','blue','yellow','pink','light green']
+colors.sort() #This is a methood look closely 
+print(colors)
+
+#Sort a list temporarily 
+ppp = ['tree','dog','hat']
+print("Here is the PPP list unsorted:")
+print(ppp)
+
+print("\nHere is the sorted list:")
+print(sorted(ppp)) #this is a function look closely
+
+
+#Print a list in revers 
+print(ppp)
+ppp.reverse()
+print(ppp)
+
+#Find the lenght of a list "How man items are in it"
+print(ppp)
+len(ppp)
 
 
 
