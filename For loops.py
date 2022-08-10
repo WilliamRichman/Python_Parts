@@ -22,11 +22,17 @@ for pig in pigs:
 #Look close you can see that all the line of code here are indented that is because it's a code block and loops all must follow code block rules
 #You have haev all your following lins after the start of the loop indented like lines 20 and 21 here 
 
-#Do something afte ther loop 
+#Do something afte ther loop. The line outside the loop is only run once the program now moves forward outside the loop
 pigs = ['porky pig','piggy pig','fatty pig','skinny pig']
 for pig in pigs:
     print(pig.title() + ", sure did taste good!")
     print("I hope the next pig that goes to market tasts as good as " + pig.title() + ".\n")
 
-print("Thank you for the wonderfull dinner wife!")
+print("Thank you for the wonderfull dinner wife!") #HINT if you indent this line even though it has a space between 29 and 31 
+#python will see it as part of the for loop and run it in the for loop and not as a seperate line of cade like it is currently
+#Make sure you are paying attention to indents and when you use them
+
+
+
+
 
