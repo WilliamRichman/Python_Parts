@@ -65,9 +65,27 @@ print(ppp)
 ppp.reverse()
 print(ppp)
 
+
 #Find the lenght of a list "How man items are in it"
 print(ppp)
 len(ppp)
+
+
+#How to loop through a slice 
+players = ['william','daniel','aigerim','stacy','joy','wilbur']
+print("Here are the first three 4 players:")
+for player in players[:4]:
+    print(player.title())
+
+#Copy a list
+my_foods =['chicken','corn','hot dogs','ice cream',]
+friend_foods = my_foods[:] #Hint you can filter from here as well
+print("My favorit foods are:")
+print(my_foods)
+
+print("\nMy friends favorit foods are:") #Hint no space \nMy for new line
+print(friend_foods)
+
 
 
 

@@ -8,5 +8,3 @@ for player in players[:3]:
     print(player.title())
 #This is short hand using a for loop to get the first 3 players of the list
 
- 
-
