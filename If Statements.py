@@ -41,7 +41,7 @@ answer = 45
 if answer != 50:
     print("That Answer Is Incorreect Please Try Again")
 
-#Checking Multiple conditions 
+#Checking Multiple conditions /THIS IS CURRENTLY BROKEN
 age_0 = 22
 age_1 = 18
 age_0 >= and age_1 >= 21
@@ -119,3 +119,4 @@ print("\nFinshed packing your tool bag!")
 #this only added the adda drill to your tool bag because its the only one in the list
 #the rest were not in the list so as the loop ran the saw and bits came back false 
 #only true objects from the list were printed
+#this would not work with an if elif else block
