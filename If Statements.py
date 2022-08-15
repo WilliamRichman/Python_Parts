@@ -66,6 +66,7 @@ user = 'william'
 if user not in banned_users:
     print(user.title() + ", you may play if you wish.")
     
+
 #If Else statement "simple"
 ages = 17
 if ages >= 18:
@@ -76,7 +77,45 @@ else:
     print("Register when you turn 18")
 
 
+#The if-elif-else chain
+#this will evaluate all the set conditions to find the first true and do that action
+
+#Notes admission 
+#4 and under is free
+#4 to 18  $5
+#18 and older is $10
+
+agea = 12
+if agea < 4:
+    print("Your admission is free")
+elif agea < 18:
+    print("Your admission is cost is $5.00")
+else:
+    print("Your admission price is $10.00")
+
+#The better way to write this script block 
+ageb = 13
+if ageb < 4:
+    price = 0
+elif ageb < 18:
+    price = 5
+else :
+    price = 10
+
+print("Your admission cost is $" + str(price) + ".")
 
 
+#Testing Multipul Conditions
+required_tools = ['hammer','screw driver','drill']
 
+if 'drill' in required_tools:
+    print("Add a drill to your tool bag")
+if 'bits' in required_tools:
+    print("Add the dill bit index to your tool bag")
+if 'saw' in required_tools:
+    print("Add a saw to you tool bag")
 
+print("\nFinshed packing your tool bag!")
+#this only added the adda drill to your tool bag because its the only one in the list
+#the rest were not in the list so as the loop ran the saw and bits came back false 
+#only true objects from the list were printed
