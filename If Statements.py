@@ -66,6 +66,17 @@ user = 'william'
 if user not in banned_users:
     print(user.title() + ", you may play if you wish.")
     
+#If Else statement "simple"
+ages = 17
+if ages >= 18:
+    print("You are old enought to vote!")
+    print("Have you registared to vote?")
+else:
+    print("Sorry your to youge to vote")
+    print("Register when you turn 18")
+
+
+
 
 
 
