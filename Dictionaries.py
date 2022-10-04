@@ -12,3 +12,12 @@ allens_0['y_position'] = 25
 print(allens_0)
 
 
+#Looping through the Key Value Pairs 
+user_0 = {
+    'username':'goat1120',
+    'firstname':'william',
+    'lastname':'richman',
+    }
+for key, value in user_0.items():
+    print("\nkey" + key)
+    print("value" + value)
