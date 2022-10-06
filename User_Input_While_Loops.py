@@ -2,6 +2,9 @@
 any time you use the input() python will see it as a string so if you are going to capture numbers
 make sure to use the int() and not input()"""
 
+from multiprocessing import current_process
+
+
 message = input("Please tell me your name. ")
 print(message)
 
@@ -40,3 +43,28 @@ if height >= 36:
     print("n\Your tall enough to ride this ride. ")
 else:
     print("n\Your to short come back whne you have grow more. ")
+
+
+""" use a while loop to count here we go to 5 """
+current_number = 1 
+while current_number <= 5:
+    print(current_number)
+    current_number +=1
+
+""" lets count to 100 next """
+
+my_number = 1 
+while my_number <= 100:
+    print(my_number)
+    my_number += 1 
+
+""" Let the user quit the program """
+""" This loop keeps running until ity see the message = quit  """
+
+prompt = "n\Tell me something and I will  reapeat back to you: "
+prompt += "n\Enter 'quit' to end the program. "
+message = ""
+while message != 'quit' :
+    message = input(prompt)
+    print(message)
+
